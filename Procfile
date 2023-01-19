@@ -1,0 +1,1 @@
+web: node dist/broadcast/server/main.js

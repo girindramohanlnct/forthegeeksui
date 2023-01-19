@@ -1,0 +1,44 @@
+.bgImage {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/Giri.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  position: absolute;
+  display: inline-block;
+  /* margin: auto; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+
+.main > p {
+  font-family: sans-serif;
+  font-size: 3vw;
+  color: white;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  text-overflow: initial;
+}
+
+.main a {
+  position: absolute;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fa923f;
+  text-align: center;
+  left: 30%;
+  transform: translate(-30%);
+  /* border: 2px solid #fa923f; */
+}
+
+@media (max-width: 858px) {
+}

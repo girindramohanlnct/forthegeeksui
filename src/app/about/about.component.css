@@ -1,0 +1,29 @@
+/* .main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageArea {
+  width: 50%;
+  height: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  order: 1;
+}
+.imageArea > img {
+  width: 60%;
+  height: 70%;
+  margin-right: auto;
+}
+
+.textArea {
+  order: 2;
+  width: 50%;
+  height: 100%;
+  border: 1px solid red;
+} */
+.btn1 {
+  background-color: #cd486b !important;
+}

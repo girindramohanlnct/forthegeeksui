@@ -1,0 +1,19 @@
+<!-- <app-header></app-header> -->
+<div class="bg">
+  <div class="container">
+    <div class="container-fluid row">
+      <div
+        *ngFor="let blogs of blogs"
+        class="card my-5 mx-3"
+        style="width: 20rem"
+      >
+        <img class="card-img-top" src="..." alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">{{ blogs.title }}</h5>
+          <p class="card-text">{{ blogs.description }}</p>
+          <a href="#" class="btn btn-primary">Full Article</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
