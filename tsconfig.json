@@ -18,8 +18,10 @@
     ]
   },
   "angularCompilerOptions": {
+    "disableTypeScriptVersionCheck": true,
     "fullTemplateTypeCheck": true,
     "types": ["node"],
     "strictInjectionParameters": true
-  }
+  },
+  
 }
